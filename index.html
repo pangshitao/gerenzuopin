@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://www.kugou.com/root/favicon.ico" rel="shortcut icon">
+  <title>个人酷狗</title>
+  <link rel="stylesheet" href="./Css/reset.min.css">
+  <link rel="stylesheet" href="./Css/index.css">
+  <link rel="stylesheet" href="./Css/swiper-bundle.min.css">
+
+</head>
+
+
+<style>
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 6px;
+  }
+
+  .swiper-button-prev::after {
+    display: none;
+
+  }
+
+  .swiper-button-prev {
+    display: none;
+    width: 80px;
+    height: 80px;
+    background: url(https://www.kugou.com/common/images/icon_arrow_left.png);
+    background-size: 100%;
+  }
+
+  .swiper-button-next::after {
+    display: none;
+  }
+
+  .swiper-button-next {
+    display: none;
+    width: 80px;
+    height: 80px;
+    background: url(https://www.kugou.com/common/images/icon_arrow_left.png);
+    background-size: 100%;
+    transform: rotate(180deg);
+  }
+
+  .avctive {
+    background: url(https://www.kugou.com/common/images/icon_play_white.png);
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+</style>
+
+<body>
+  <!--ImPORT CSS -->
+
+  <!-- 导航 -->
+  <div class="ALL">
+    <!-- 第一个导航 -->
+    <div class="header">
+      <div class="hearCentercontext">
+        <div class="Leftcontext">
+          <a href="#">
+            <img src="	https://www.kugou.com/common/images/kugou_white.png" alt="">
+          </a>
+          <input type="text">
+          <div class="search"></div>
+        </div>
+        <div class="Rightcontext">
+          <a class="musicPerson">音乐人</a>
+          <a class="musicMake">音频创作</a>
+          <a class="musicVip">VIP会员</a>
+          <div class="weight"></div>
+          <div class="musicGo">
+            <a class="musicGogo">登录</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 第二个导航！ -->
+    <div class="header2">
+      <div class="header2container">
+        <ul>
+          <li class="header2_1">
+            <p>首页</p>
+          </li>
+          <li class="header2_2">榜单</li>
+          <li class="header2_3">听书</li>
+          <li class="header2_4">直播</li>
+          <li class="header2_5">商城</li>
+          <li class="header2_6">下载酷狗</li>
+          <li class="more">
+            <div class="one">
+              更多
+              <span></span>
+            </div>
+            <div class="more_select">
+              <div class="tihreeFlag"></div>
+              <div class="selectContent">
+                <ul>
+                  <li>频道</li>
+                  <li>MV</li>
+                  <li>歌单</li>
+                  <li>歌手</li>
+                  <li>专辑</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 轮播图 -->
+  <div class="RotationChart">
+    <div class="swiper" id="AAA">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="first"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="second"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="third"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="foutth"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="fifth"></div>
+      </div>
+      </div>
+      <!-- 分页器 -->
+      <div class="swiper-pagination"></div>
+      <!-- 导航按钮 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+  <!--轮播图下面导航 -->
+  <div class="underRotationChart">
+    <div class="window">
+      <p></p>
+      <div>下载电脑版</div>
+    </div>
+    <div class="iphone">
+      <p></p>
+      <div>下载Iphone</div>
+    </div>
+    <div class="Android">
+      <p></p>
+      <div>下载Android版</div>
+    </div>
+  </div>
+
+  <div class="conTent">
+  
+    <div class="music">
+   
+      <div class="musicFrom">
+        <div class="musicFromtitle">
+          <h3>精选歌单</h3>
+          <div class="Moremore">
+            <div>更多</div>
+            <span></span>
+          </div>
+        </div>
+        <div class="musicFromcontent">
+          <div class="picture1 pictureAAA" id="picture1">
+            <div class="hidden"><img src="https://imgessl.kugou.com/custom/480/20220726/20220726135537938171.jpg"
+                alt="">
+              <div class="word">
+                <a></a>
+                <span>43.3万</span>
+              </div>
+            </div>
+            <div class="black">
+              <a>
+              </a>
+            </div>
+            <p>koop阳间曲</p>
+          </div>
+          <div class="picture4">
+            <div class="picture4_1 pictureBBB">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/custom/150/20220220/20220220102731841606.jpg" alt="">
+
+                <div class="word">
+                  <a></a>
+                  <span>23.2万</span>
+                </div>
+              </div>
+              <p>jojo的奇妙冒险1-6部op+处刑曲</p>
+              <div class="black">
+                <a></a>
+              </div>
+            </div>
+            <div class="picture4_1 pictureBBB">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/custom/150/20220220/20220220102731841606.jpg" alt="">
+
+                <div class="word">
+                  <a></a>
+                  <span>23.2万</span>
+                </div>
+              </div>
+              <p>jojo的奇妙冒险1-6部op+处刑曲</p>
+              <div class="black">
+                <a></a>
+              </div>
+
+            </div>
+            <div class="picture4_1 pictureBBB">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/custom/150/20220220/20220220102731841606.jpg" alt="">
+
+                <div class="word">
+                  <a></a>
+                  <span>23.2万</span>
+                </div>
+              </div>
+              <p>jojo的奇妙冒险1-6部op+处刑曲</p>
+              <div class="black">
+                <a></a>
+              </div>
+            </div>
+            <div class="picture4_1 pictureBBB">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/custom/150/20220220/20220220102731841606.jpg" alt="">
+
+                <div class="word">
+                  <a></a>
+                  <span>23.2万</span>
+                </div>
+              </div>
+              <p>jojo的奇妙冒险1-6部op+处刑曲</p>
+              <div class="black">
+                <a></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      <div class="musicMore">
+        <div class="musicMoretitle">
+          <h3>热门榜单</h3>
+          <div class="moreMore">
+            <div>更多</div>
+            <span></span>
+          </div>
+        </div>
+        <div class="musicMorecontent">
+          <div class="Soaringlist pictureCCC">
+            <div class="hidden">
+              <img src="https://www.kugou.com/common/images/rank_i1.png" alt="">
+            </div>
+            <div class="black">
+              <a></a>
+            </div>
+            <ul class="Soaringlistlist">
+              <li>
+                <span>1.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>2.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>3.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>4.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+            </ul>
+          </div>
+          <div class="Soaringlist pictureCCC">
+            <div class="hidden">
+              <img src="https://www.kugou.com/common/images/rank_i2.png" alt="">
+            </div>
+            <div class="black">
+              <a></a>
+            </div>
+            <ul class="Soaringlistlist">
+              <li>
+                <span>1.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>2.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>3.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>4.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+            </ul>
+          </div>
+          <div class="Soaringlist pictureCCC">
+            <div class="hidden">
+              <img src="	https://www.kugou.com/common/images/rank_i3.png" alt="">
+            </div>
+            <div class="black">
+              <a></a>
+            </div>
+            <ul class="Soaringlistlist">
+              <li>
+                <span>1.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>2.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>3.</span>
+                <span>碎梦-胡彦斌</span>
+              </li>
+              <li>
+                <span>4.</span>
+                <span>碎梦-胡彦斌
+
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="newMusicpublish">
+     
+      <div class="nMcleft">
+        
+        <div class="nMclefttitle">
+          <div class="nMclefttitle1">
+            <h3 class="nMclefttitle1_1">新歌首发</h3>
+            <ul class="nMclefttitle1_2">
+              <li class="nMclefttitle1_2_one nMclefttitle1_2_oneone">华语
+                <div class="ulblock">
+                  <span></span>
+                </div>
+              </li>
+              <li class="nMclefttitle1_2_two nMclefttitle1_2_one  none">欧美
+                <div class="ulblock">
+                  <span></span>
+                </div>
+              </li>
+              <li class="nMclefttitle1_2_three nMclefttitle1_2_one  none">韩国
+                <div class="ulblock">
+                  <span></span>
+                </div>
+              </li>
+              <li class="nMclefttitle1_2_four nMclefttitle1_2_one  none">日本
+                <div class="ulblock">
+                  <span></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="nMclefttitle2">
+            <span class="nMclefttitle2left_threefoot"></span>
+            <span class="nMclefttitle2left_1">1</span>
+            <span class="nMclefttitle2left_/">/</span>
+            <span class="nMclefttitle2left_3">3</span>
+            <span class="nMclefttitle2left_threefootright"></span>
+          </div>
+        </div>
+       
+        <div class="nMcleftcontent">
+          <ul class="nMcleftcontentul">
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230625/20230625140801117973.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>碎梦</p>
+                <p>胡彦斌</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="nMcleftcontent none">
+          <ul class="nMcleftcontentul">
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230622/20230622054900894862.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>See You Again</p>
+                <p>The Chainsmokers、ILLENIUM、</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="nMcleftcontent none">
+          <ul class="nMcleftcontentul">
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230626/20230626151300760246.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>Hate Rodrigo</p>
+                <p>YENA、宋雨琦</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="nMcleftcontent none">
+          <ul class="nMcleftcontentul">
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+            <li class="nMcleftcontentul_li">
+              <div class="hidden">
+                <img src="https://imgessl.kugou.com/stdmusic/240/20230616/20230616173400916517.jpg" alt="">
+              </div>
+              <div class="text">
+                <p>竈門禰豆子のうた (灶门祢豆子之歌)</p>
+                <p>椎名豪、中川奈美</p>
+              </div>
+              <div class="double">
+                <span class="double_1"></span>
+                <span class="double_2"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--新歌首发新右边的内容-->
+      <div class="nMcright">
+        <div class="nMcrightTitle">
+          <h3>推荐mv</h3>
+          <div class="moreMore">
+            <div>更多</div>
+            <span></span>
+          </div>
+        </div>
+        <div class="nMcright_1video pictureDDD">
+          <div class="hidden">
+            <img src="https://imgessl.kugou.com/mvhdpic/400/20230624/20230624231232782661.jpg" alt="">
+          </div>
+          <div class="black">
+            <a></a>
+          </div>
+          <p>那一天</p>
+          <p>鞠婧祎</p>
+        </div>
+        <div class="nMcright_2video">
+          <div class="nMcright_Left pictureEEE">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/mvhdpic/400/20230627/20230627191526929834.jpg" alt="">
+            </div>
+            <div class="black">
+              <a></a>
+            </div>
+            <p>Hate Rodrigo (Feat.YUQI ((G)I-DLE))</p>
+            <p>The Black Eyed Peas、Daddy Yankee</p>
+          </div>
+          <div class="nMcright_Right pictureFFF">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/mvhdpic/400/20230626/20230626171821450579.jpg" alt="">
+            </div>
+            <div class="black">
+              <a></a>
+            </div>
+            <p>问灵</p>
+            <p>萨顶顶</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="listenBook">
+    
+      <div class="listenBookTitle">
+        <div class="LBTleft">
+          <h3>听书精选</h3>
+          <ul class="LBTleft_ul">
+            <li class="blueBlue LBTleft_li">热门</li>
+            <li class="LBTleft_li ">小说</li>
+            <li class="LBTleft_li">儿童</li>
+            <li class="LBTleft_li ">相声</li>
+            <li class="LBTleft_li">情感</li>
+          </ul>
+        </div>
+     
+        <div class="LBTright">
+          <div class="Moremore">
+            <div>更多</div>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="listenBookContant">
+        <ul class="listenBookContant_ul">
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20211103/20211103120537893541.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>凡人修仙传｜寻觅仙缘天道之路</p>
+              <p>微媒有道</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="listenBookContant aaa" >
+        <ul class="listenBookContant_ul">
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230308/20230308143413694631.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>败家子爆笑穿越</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="listenBookContant aaa ">
+        <ul class="listenBookContant_ul">
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20220401/20220401125429461500.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>儿歌多多</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="listenBookContant aaa">
+        <ul class="listenBookContant_ul">
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230607/20230607124600596116.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>龙虎风云会-单田芳</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="listenBookContant aaa">
+        <ul class="listenBookContant_ul">
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+          <li class="listenBookContant_li">
+            <div class="hidden">
+              <img src="https://imgessl.kugou.com/stdmusic/150/20230602/20230602095542583951.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>抖音心灵鸡汤</p>
+            </div>
+            <div class="textRightlogo">
+              <span class="threeFoot"></span>
+              <span>7139.2万</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="PopularChannels">
+        <div class="PopularChannelsTitle">
+          <h3>热门频道</h3>
+          <div class="moreMore">
+            <div>更多</div>
+            <span></span>
+        </div>
+       
+    </div>
+    <div class="PopularChannelsContent">
+         <div class="PopularChannelsContent_1 pictureGGG" >
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/fmlogov2/480/20211228155137254626.jpg">
+          </div>
+          <div class="black">
+            <a></a>
+          </div>
+          <p>散步</p>
+         </div>
+         <div class="PopularChannelsContent_1 pictureGGG" >
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/fmlogov2/480/20220125132319310134.jpg">
+          </div>
+          <div class="black">
+            <a></a>
+          </div>
+          <p>z中文DJ</p>
+         </div>
+         <div class="PopularChannelsContent_1 pictureGGG" >
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/fmlogov2/480/20220215174138171104.png">
+          </div>
+          <div class="black">
+            <a></a>
+          </div>
+          <p>白听不厌英文歌</p>
+         </div>
+         <div class="PopularChannelsContent_1 pictureGGG" >
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/fmlogov2/480/20230315192032586705.jpg">
+          </div>
+          <div class="black">
+            <a></a>
+          </div>
+          <p>0.8慢速</p>
+         </div>
+         <div class="PopularChannelsContent_1 pictureGGG" >
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/fmlogov2/480/20181102104359601180.jpg">
+          </div>
+          <div class="black">
+            <a></a>
+          </div>
+          <p>安静</p>
+         </div>
+    </div>
+  </div>
+
+ 
+  <div class="hotsinger">
+   
+    <div class="hotsingertitle">
+       <div class="hotsingertitle_left">
+        <h3>热门歌手</h3>
+        <ul class="hotsingertitle_left_ul">
+          <li class="hotsingertitle_left_ul_li blueBlue">华语</li>
+          <li class="hotsingertitle_left_ul_li ">欧美</li>
+          <li class="hotsingertitle_left_ul_li  ">日韩</li>
+        </ul>
+       </div>
+       <div class="hotsingertitle_right">
+        <div class="Moremore">
+          <div>更多</div>
+          <span></span>
+        </div>
+       </div>
+    </div>
+     
+    <div class="hotsingerContent ">
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20220714/20220714130853543.jpg" alt="">
+          </div>
+          <p>周杰伦</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20230407/20230407184747248.jpg" alt="">
+          </div>
+          <p>林俊杰</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20220418/20220418110906223.jpg" alt="">
+          </div>
+          <p>张杰</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20200603/20200603112123228.jpg" alt="">
+          </div>
+          <p>薛之谦</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20220811/20220811230718348.jpg" alt="">
+          </div>
+          <p>邓紫棋</p>
+         </div>
+    </div>
+    <div class="hotsingerContent none">
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20220829/20220829171258410.jpg" alt="">
+          </div>
+          <p>Taylor Swift</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20210319/20210319161332735.jpg" alt="">
+          </div>
+          <p>Justin Bieber</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20210517/20210517173236916.jpg" alt="">
+          </div>
+          <p>Michael Jackson</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20200330/20200330170008586.jpg" alt="">
+          </div>
+          <p>Nightwish</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="	https://imgessl.kugou.com/uploadpic/softhead/240/20210309/20210309172154318.jpg" alt="">
+          </div>
+          <p>Selena Gomez</p>
+         </div>
+    </div>
+    <div class="hotsingerContent none">
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20230410/20230410172252972.jpg" alt="">
+          </div>
+          <p>IVE</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20220916/20220916115427959.jpg" alt="">
+          </div>
+          <p>BLACKPING</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20220405/20220405093559236.jpg" alt="">
+          </div>
+          <p>BIGBANG</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20210604/20210604162833246.jpg" alt="">
+          </div>
+          <p>EXO</p>
+         </div>
+         <div class="hotsingerContent_1">
+          <div class="hidden">
+              <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20230331/20230331135044476.jpg" alt="">
+          </div>
+          <p>JISOO(지수)</p>
+         </div>
+    </div>
+  </div>
+  
+  <div class="recommendedContent">
+     <div class="recommendedContent_title">
+      <h3 class="title_left">推荐内容</h3>
+      <div class="title_right">
+        <span class="leftLogo"></span>
+        <span class="leftText">1</span>
+        <span class="among">/</span>
+        <span class="rightText">2</span>
+        <span class="tightLogo"></span>
+      </div>
+     </div>
+  
+     <div class="recContent">
+         <ul class="recContent_list">
+          <li class="recContent_list_li active">白眉大侠</li>
+          <li class="recContent_list_li active">茅山捉鬼人</li>
+          <li class="recContent_list_li active">夜听fm</li>
+          <li class="recContent_list_li active">贝瓦故事</li>
+          <li class="recContent_list_li active">文武贝刘行琴</li>
+          <li class="recContent_list_li active">福登昂</li>
+          <li class="recContent_list_li active">顾德刚</li>
+          <li class="recContent_list_li active">诚意电台</li>
+          <li class="recContent_list_li active">宝宝巴士</li>
+          <li class="recContent_list_li active">晚安故事盒</li>
+          <li class="recContent_list_li active">原创音乐</li>
+          <li class="recContent_list_li active">水浒传</li>
+          <li class="recContent_list_li active">斗罗大陆</li>
+          <li class="recContent_list_li active">隋唐演义</li>
+          <li class="recContent_list_li active">原创音乐</li>
+          <li class="recContent_list_li active">精心音乐</li>
+          <li class="recContent_list_li active">倾心婷</li>
+          <li class="recContent_list_li active">静心音乐</li>
+          <li class="recContent_list_li active">薛之签</li>
+          <li class="recContent_list_li active">邓紫棋</li>
+          <li class="recContent_list_li active">张杰</li>
+   
+    
+
+         </ul>
+     </div>
+
+  </div>
+
+
+  <div class="collaborativeLinks">
+    <div class="collaborativeLinks_title">
+      <h3>合作链接</h3>
+    </div>
+      <div class="collaborativeLinks_content">
+        <ul class=collaborativeLinks_list>
+          <li class="aaa">汽车论坛</li>
+          <li class="aaa">IT之家</li>
+          <li class="aaa">365官网</li>
+          <li class="aaa">慢慢看漫画</li>
+          <li class="aaa">手机游戏</li>
+          <li class="aaa">腾讯音乐人</li>
+          <li class="aaa">易车</li>
+          <li class="aaa">豌豆荚</li>
+          <li class="aaa">酷我音乐</li>
+          <li class="aaa">智能电视网</li>
+          <li class="aaa">QQ音乐</li>
+          <li class="aaa">Ssing众筹</li></li>
+          <li class="aaa">Ss原创音乐</li>
+          <li class="aaa">豌豆荚</li>
+          
+        </ul>
+      </div>
+  </div>
+ 
+
+  </div>
+ 
+  <div class="rightFixed" >
+   
+    <div class="down">
+      <div class="downKugo">
+      </div>
+      <div class="qrCode">
+        <div class="qrCodeContent">
+        </div>
+        <p>下载手机版酷狗</p></p>
+      </div>
+      <p>下载酷狗</p>
+    </div>
+ 
+    <div class="idea">
+      <div class="feedBack">
+        <div class="feedBackContent"></div>
+        <p>意见反馈</p>
+      </div>
+    </div>
+    
+    <div class="backlTop">
+      <div class="backlTopContent"></div>
+      <p>回到顶部</p>
+    </div>
+  </div>
+
+  </div>
+</body>
+<script src="./Js/index.js"></script>
+<script src="./Js/swiper-bundle.min.js"></script>
+<script>
+  new Swiper('#AAA', {
+  
+    loop: true,
+    //  开启自动切换
+
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    //  控制切换效果
+    // 水平切换 
+    effect: 'fade',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    // 开启导航按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // 事件监听
+    on: {
+
+
+
+
+    }
+
+  });
+</script>
+<script>
+
+</script>
+
+</html>
